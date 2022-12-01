@@ -2,7 +2,7 @@ DROP DATABASE IF EXISTS SpotifyClone;
 
 CREATE DATABASE IF NOT EXISTS SpotifyClone;
 
--- USE SpotifyClone;
+USE SpotifyClone;
 
 CREATE TABLE SpotifyClone.tb_planos(
 	plano_id SMALLINT PRIMARY KEY NOT NULL AUTO_INCREMENT,
